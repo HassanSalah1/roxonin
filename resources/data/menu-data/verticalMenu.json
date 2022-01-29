@@ -1,0 +1,36 @@
+{
+  "menu": [
+    {
+      "name": "dashboard",
+      "icon": "home",
+      "url": "admin/dashboard",
+      "slug": "dashboard"
+    },
+    {
+      "name": "manageUsers",
+      "icon": "users",
+      "url": "",
+      "slug": "",
+      "submenu": [
+        {
+          "name": "permissions",
+          "icon": "circle",
+          "url": "admin/permissions",
+          "slug": "admin.permissions.index"
+        },
+        {
+          "name": "roles",
+          "icon": "circle",
+          "url": "admin/roles",
+          "slug": "admin.roles.index"
+        },
+        {
+          "name": "users",
+          "icon": "circle",
+          "url": "admin/users",
+          "slug": "admin.users.index"
+        }
+      ]
+    }
+  ]
+}
